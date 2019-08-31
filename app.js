@@ -25,13 +25,13 @@ const Item = mongoose.model("Item", itemsSchema);
 
 // 3 new items
 const item1 = new Item({
-  name: "Work on project"
+  name: "Finish project"
 });
 const item2 = new Item({
-  name: "Finish salad"
+  name: "Tidy up"
 });
 const item3 = new Item({
-  name: "Fish and chips"
+  name: "Cook dinner"
 });
 
 const defaultItems = [item1, item2, item3];
